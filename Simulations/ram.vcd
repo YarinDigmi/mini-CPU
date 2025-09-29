@@ -1,0 +1,183 @@
+$date
+	Sun Sep 28 18:42:48 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ram_tb $end
+$var wire 8 ! dout [7:0] $end
+$var reg 4 " addr [3:0] $end
+$var reg 1 # areset $end
+$var reg 1 $ clk $end
+$var reg 8 % din [7:0] $end
+$var reg 1 & en $end
+$var reg 1 ' we $end
+$scope module DUT $end
+$var wire 4 ( addr [3:0] $end
+$var wire 1 # areset $end
+$var wire 1 $ clk $end
+$var wire 8 ) din [7:0] $end
+$var wire 1 & en $end
+$var wire 1 ' we $end
+$var reg 8 * dout [7:0] $end
+$var integer 32 + i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10000 +
+b0 *
+b0 )
+b0 (
+0'
+0&
+b0 %
+0$
+1#
+b0 "
+b0 !
+$end
+#5
+b10000 +
+1$
+#10
+0$
+#12
+1'
+1&
+0#
+#15
+1$
+#20
+0$
+#22
+b11111111 %
+b11111111 )
+#25
+1$
+#30
+0$
+#32
+b10010 %
+b10010 )
+b1 "
+b1 (
+#35
+1$
+#40
+0$
+#42
+b11000000 %
+b11000000 )
+b1001 "
+b1001 (
+#45
+1$
+#50
+0$
+#52
+b1 "
+b1 (
+0'
+#55
+b10010 !
+b10010 *
+1$
+#60
+0$
+#62
+b11 "
+b11 (
+#65
+b0 !
+b0 *
+1$
+#70
+0$
+#72
+b1001 "
+b1001 (
+#75
+b11000000 !
+b11000000 *
+1$
+#80
+0$
+#82
+b10100100 %
+b10100100 )
+b101 "
+b101 (
+1'
+#85
+1$
+#90
+0$
+#92
+b11101 %
+b11101 )
+b110 "
+b110 (
+0&
+#95
+1$
+#100
+0$
+#102
+0'
+#105
+1$
+#110
+0$
+#112
+b1 "
+b1 (
+#115
+1$
+#120
+0$
+#122
+b110 "
+b110 (
+1&
+#125
+b0 !
+b0 *
+1$
+#130
+0$
+#132
+b10000 +
+1#
+#135
+b10000 +
+1$
+#140
+0$
+#142
+b11 "
+b11 (
+0#
+#145
+1$
+#150
+0$
+#152
+b101 "
+b101 (
+#155
+1$
+#160
+0$
+#165
+1$
+#170
+0$
+#172
