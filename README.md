@@ -27,3 +27,8 @@ All instructions are 16 bits wide and follow a fixed format.
    ```bash
    iverilog -o cpu_tb.out alu.v ram.v regfile.v pc.v instr_rom.v controller.v cpu_tb.v
 
+
+
+   <img width="794" height="453" alt="צילום מסך 2025-09-29 183210" src="https://github.com/user-attachments/assets/058c0e89-939e-42b2-be2f-49c0d8d55eb6" />
+
+
