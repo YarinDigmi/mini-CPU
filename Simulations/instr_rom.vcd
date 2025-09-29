@@ -1,0 +1,64 @@
+$date
+	Mon Sep 29 11:01:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module instr_rom_tb $end
+$var wire 16 ! instr [15:0] $end
+$var reg 8 " addr [7:0] $end
+$scope module DUT $end
+$var wire 8 # addr [7:0] $end
+$var wire 16 $ instr [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100010000000000 $
+b0 #
+b0 "
+b100010000000000 !
+$end
+#10
+b100100000100000 !
+b100100000100000 $
+b1 "
+b1 #
+#20
+b110010100000 !
+b110010100000 $
+b10 "
+b10 #
+#30
+b110110001000000 !
+b110110001000000 $
+b11 "
+b11 #
+#40
+b11101010000101 !
+b11101010000101 $
+b111 "
+b111 #
+#50
+b110100100000000 !
+b110100100000000 $
+b1101 "
+b1101 #
+#60
+b111010101100000 !
+b111010101100000 $
+b10011 "
+b10011 #
+#70
+bx !
+bx $
+b11110 "
+b11110 #
+#90
