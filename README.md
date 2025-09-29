@@ -29,6 +29,6 @@ All instructions are 16 bits wide and follow a fixed format.
 
 ## 🖼️ Architecture
 
-![CPU Architecture](docs/arch.png)
+![CPU Architecture](arch.png)
 
 
