@@ -1,0 +1,173 @@
+$date
+	Sat Oct 04 22:27:15 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module controller_tb $end
+$var wire 1 ! wrtsrc $end
+$var wire 1 " we_reg $end
+$var wire 1 # we_ram $end
+$var wire 1 $ rdsrc $end
+$var wire 1 % pcsrc $end
+$var wire 1 & jump $end
+$var wire 1 ' en_ram $end
+$var wire 1 ( en_pc $end
+$var wire 2 ) alusrc [1:0] $end
+$var wire 3 * alu_out [2:0] $end
+$var reg 4 + alu_in [3:0] $end
+$var reg 3 , main_op [2:0] $end
+$var reg 1 - zero $end
+$scope module DUT $end
+$var wire 4 . alu_in [3:0] $end
+$var wire 3 / main_op [2:0] $end
+$var wire 1 - zero $end
+$var parameter 32 0 ADD $end
+$var parameter 32 1 AND $end
+$var parameter 32 2 BEZ $end
+$var parameter 32 3 BNEZ $end
+$var parameter 32 4 ITYPE $end
+$var parameter 32 5 JUMP $end
+$var parameter 32 6 LOAD $end
+$var parameter 32 7 OR $end
+$var parameter 32 8 RTYPE $end
+$var parameter 32 9 STORE $end
+$var parameter 32 : SUB $end
+$var parameter 32 ; XOR $end
+$var reg 3 < alu_out [2:0] $end
+$var reg 2 = alusrc [1:0] $end
+$var reg 1 ( en_pc $end
+$var reg 1 ' en_ram $end
+$var reg 1 & jump $end
+$var reg 1 % pcsrc $end
+$var reg 1 $ rdsrc $end
+$var reg 1 # we_ram $end
+$var reg 1 " we_reg $end
+$var reg 1 ! wrtsrc $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 ;
+b1 :
+b11 9
+b0 8
+b11 7
+b10 6
+b100 5
+b1 4
+b110 3
+b101 2
+b10 1
+b0 0
+$end
+#0
+$dumpvars
+b0 =
+b0 <
+b0 /
+b0 .
+0-
+b0 ,
+b0 +
+b0 *
+b0 )
+1(
+0'
+0&
+x%
+1$
+0#
+1"
+0!
+$end
+#2
+b1 *
+b1 <
+b1 +
+b1 .
+#4
+b100 *
+b100 <
+b10 +
+b10 .
+#6
+b101 *
+b101 <
+b11 +
+b11 .
+#8
+b110 *
+b110 <
+b100 +
+b100 .
+#10
+b0 *
+b0 <
+b101 +
+b101 .
+#12
+b1 )
+b1 =
+b1 ,
+b1 /
+#14
+bx )
+bx =
+x$
+1!
+1'
+bx *
+bx <
+b10 ,
+b10 /
+#16
+b10 )
+b10 =
+0$
+x!
+1#
+b0 *
+b0 <
+0"
+b11 ,
+b11 /
+#18
+1%
+bx )
+bx =
+x$
+x#
+0'
+bx *
+bx <
+1&
+b100 ,
+b100 /
+#20
+0%
+b10 )
+b10 =
+0$
+b0 *
+b0 <
+0&
+b101 ,
+b101 /
+#22
+1&
+b110 ,
+b110 /
+#24
+b0 )
+b0 =
+0!
+0#
+0&
+0(
+b111 ,
+b111 /
