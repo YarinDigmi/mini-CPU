@@ -9,7 +9,7 @@ This project implements a simple **8-bit CPU** in Verilog, designed as an educat
 - **Data RAM (16×8)** – 16 addresses, 8 bits wide, supports synchronous write and read.
 - **Program Counter (PC)** – 8-bit counter with reset, enable, and jump support.
 - **Instruction ROM (256×16)** – stores the program instructions, loaded from a memory file (`program.mem`).
-- **Controller (FSM/Decoder)** – decodes instructions (R/I-type, Load/Store, Jump, Branch) and generates control signals.
+- **Controller** – decodes instructions (R/I-type, Load/Store, Jump, Branch) and generates control signals.
 
 ## 📝 Instruction Set Architecture (ISA)
 
