@@ -25,7 +25,7 @@ All instructions are 16 bits wide and follow a fixed format.
 
 1. Compile:
    ```bash
-   iverilog -o cpu_tb.out alu.v ram.v regfile.v pc.v instr_rom.v controller.v cpu_tb.v
+   iverilog -o cpu_tb.out alu.v ram.v rf.v pc.v instr_rom.v controller.v cpu_tb.v
 
 ## 🖼️ Architecture
 
