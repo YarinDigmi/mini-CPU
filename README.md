@@ -6,7 +6,7 @@ This project implements a simple **8-bit CPU** in Verilog, designed as an educat
 
 - **ALU** – supports arithmetic and logic operations (ADD, SUB, AND, OR, XOR, with carry/overflow flags).
 - **Register File (8×8)** – 8 general-purpose registers, 8 bits wide, supporting 2 reads and 1 write per cycle.
-- **Data RAM (16×8)** – 16 addresses, 8 bits wide, supports synchronous write and read.
+- **Data RAM (16×8)** – 16 addresses, 8 bits wide, supports synchronous write and asynchronous read.
 - **Program Counter (PC)** – 8-bit counter with reset, enable, and jump support.
 - **Instruction ROM (256×16)** – stores the program instructions, loaded from a memory file (`program.mem`).
 - **Controller** – decodes instructions (R/I-type, Load/Store, Jump, Branch) and generates control signals.
@@ -14,7 +14,7 @@ This project implements a simple **8-bit CPU** in Verilog, designed as an educat
 ## 📝 Instruction Set Architecture (ISA)
 
 - **R-type**: register–register operations (ADD, SUB, AND, OR, XOR, …).
-- **I-type**: register–immediate operations (currently ADDI, expandable to ANDI/ORI/XORI/SLLI).
+- **I-type**: register–immediate operations (currently ADDI, expandable to ANDI/ORI/XORI etc.).
 - **Load/Store**: access 16×8 data RAM.
 - **Jump**: unconditional jump to 8-bit address.
 - **Branch**: minimal branch support (e.g., BEQZ/BNEZ).
